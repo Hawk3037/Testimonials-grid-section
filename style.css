@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: rgb(128,128,128, 0.1);
+}
+.container1{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    margin: 5rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
+    
+    
+}
+.daniel{
+    background-color: hsl(263, 55%, 52%);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 2%;
+    z-index: 2;
+    
+
+}
+.grid1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    position: relative;
+    
+}
+.image1{
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    height: 35px;
+}
+
+h5{
+    font-size: 20px;
+    margin-top: 1rem;
+    color: white;
+    margin-left: 2rem;
+    margin-bottom: 0rem;
+    margin-right: 2rem;
+    font-weight: 600px;
+    
+}
+.para1{
+    margin-top: 0rem;
+    padding-top: 0rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    font-size:  13px;
+    margin-right: 2rem;
+    color: white;
+    font-weight: 500px;
+    z-index: 2;
+}
+.jonathan{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 2%;
+}
+.patrick{
+    background-color: hsl(219, 29%, 14%);
+    grid-column-start: -4;
+    grid-column-end: -2;
+    border-radius: 2%;
+}
+.white1{
+    color: black;
+}
+.kira{
+    background-color: white;
+    grid-row-start: -3 ;
+    grid-row-end: -1;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-radius: 2%;
+}
+.jeanette{
+    background-color: white;
+    border-radius: 2%;  
+    
+}
+p{
+    line-height: 1.4    ;
+}
+.name2{
+    color: white;
+    font-size: 13px;
+}
+.lower{
+    color: hsl(0, 0%, 81%);
+}
+.white{
+    color: black;
+}
+.arrow1 {
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .arrow {
+    position: relative;
+    left: 22rem;
+    bottom: 3.5rem;
+  }
+  @media (max-width:375px){
+    body{
+        margin: 2rem;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem;
+    }
+    .arrow{
+        left: 0;
+        left: 160px;
+    }
+  }
